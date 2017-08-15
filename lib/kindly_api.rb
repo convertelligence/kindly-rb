@@ -21,11 +21,15 @@ module Kindly
     end
 
     def self.send(user_id: nil, message: nil, exchange_id: nil)
-        Requests.request("POST", self.configuration.api_host + "/api/v1/send", data: {
-            api_key: self.configuration.api_key,
-            user_id: user_id,
-            messeage: message,
-            exchange_id: exchange_id,
-        }.to_json)
+        Requests.request(
+            "POST",
+            self.configuration.api_host + "/api/v1/send",
+            data: {
+                api_key: self.configuration.api_key,
+                user_id: user_id,
+                messeage: message,
+                exchange_id: exchange_id,
+            }.to_json
+        )
     end
 end

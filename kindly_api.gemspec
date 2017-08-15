@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'kindly_api'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2017-08-15'
   s.summary     = "A small wrapper for Ruby-applications to integrate with Kindly"
   s.description = "A small wrapper for Ruby-applications to integrate with Kindly"
