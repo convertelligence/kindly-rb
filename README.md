@@ -1,16 +1,22 @@
 # Kindly for Ruby
 
-A small wrapper for Ruby-based applications such as Ruby on Rails which makes integrating Kindly into your own backend applications a breeze.
+A small wrapper for Ruby-applications to integrate with [Kindly](https://kindly.gitbooks.io/kindly/).
 
 To install the gem:
 
 `gem install kindly_api`
 
-or add `gem kindly_api` to your `Gemfile` followed by `bundle install`.
+or
 
-Now just configure to use your API key ([see documentation](kindly.gitbooks.io/kindly/)):
+Add `gem kindly_api` to your `Gemfile`
+
+and run `bundle install`.
+
+## Start using
 
 ```ruby
+
+# Just configure...
 
 require 'kindly_api'
 
@@ -18,11 +24,7 @@ Kindly.config do |config|
     config.API_KEY = "YOUR API KEY HERE"
 end
 
-```
-
-... and start using the API:
-
-```ruby
+# ...and start sending
 
 Kindly.send("TODO")
 
