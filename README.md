@@ -18,9 +18,9 @@ and run `bundle install`.
 require 'kindly_api'
 
 Kindly.config do |config|
-    config.API_KEY = "YOUR API KEY HERE"
+    config.api_key = "YOUR API KEY HERE"
 end
 
-Kindly.send("TODO")
+Kindly.send(user_id: "user123", message: "Hi bot!")
 
 ```

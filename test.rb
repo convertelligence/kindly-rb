@@ -4,4 +4,4 @@ Kindly.configure do |config|
     config.api_key = "feeffe"
 end
 
-Kindly.send("12123123", "lolzzz")
+Kindly.send(user_id: "user123", message: "Hi bot!")

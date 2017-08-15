@@ -20,7 +20,7 @@ module Kindly
         end
     end
 
-    def self.send(user_id, message, exchange_id=nil)
+    def self.send(user_id: nil, message: nil, exchange_id: nil)
         p self.configuration.api_key
         p user_id
         p message
