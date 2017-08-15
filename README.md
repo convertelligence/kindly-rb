@@ -15,16 +15,11 @@ and run `bundle install`.
 ## Start using
 
 ```ruby
-
-# Just configure...
-
 require 'kindly_api'
 
 Kindly.config do |config|
     config.API_KEY = "YOUR API KEY HERE"
 end
-
-# ...and start sending
 
 Kindly.send("TODO")
 
