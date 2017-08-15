@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://kindly.gitbooks.io/kindly/'
   s.license       = 'ISC'
+  s.add_dependency 'requests'
 end
