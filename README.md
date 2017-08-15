@@ -12,7 +12,7 @@ Add `gem kindly_api` to your `Gemfile`
 
 and run `bundle install`.
 
-Now you're ready to start using it:
+Now you're ready to start using the library:
 
 ```ruby
 require 'kindly_api'
