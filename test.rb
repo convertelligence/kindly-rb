@@ -1,4 +1,4 @@
-require './lib/kindly_api.rb'
+require './lib/kindly.rb'
 
 Kindly.configure do |config|
     config.api_key = "feeffe"
